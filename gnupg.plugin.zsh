@@ -1,11 +1,8 @@
 # -*- mode: sh; eval: (sh-set-shell "zsh") -*-
 #
 # Plugin Name: gnupg
+# Description: Zsh plugin to set up environment variables for GnuPG.
 # Repository: https://github.com/johnstonskj/zsh-gnupg-plugin
-#
-# Description:
-#
-#   Zsh plugin to set up environment variables for GnuPG.
 #
 # Public variables:
 #
@@ -13,6 +10,8 @@
 #   * `_ALIASES`; a list of all aliases defined by the plugin.
 #   * `_FUNCTIONS`; a list of all functions defined by the plugin.
 #   * `_PLUGIN_DIR`; the directory the plugin is sourced from.
+#   * `_OLD_HOME`; previous value of the `GNUPGHOME` environment variable.
+#   * `_OLD_TTY`; previous value of the `GPG_TTY` environment variable.
 # * `GNUPGHOME`; path to the GnuPG home/data directory.
 # * `GPG_TTY`; the terminal device for GPG to use.
 #
