@@ -1,8 +1,10 @@
 # -*- mode: sh; eval: (sh-set-shell "zsh") -*-
 #
-# Plugin Name: gnupg
-# Description: Zsh plugin to set up environment variables for GnuPG.
-# Repository: https://github.com/johnstonskj/zsh-gnupg-plugin
+# @name: gnupg
+# @brief: Set up environment variables for GnuPG.
+# @repository: https://github.com/johnstonskj/zsh-gnupg-plugin
+# @version: 0.1.1
+# @license: MIT AND Apache-2.0
 #
 # Public variables:
 #
