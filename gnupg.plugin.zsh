@@ -1,8 +1,15 @@
 # -*- mode: sh; eval: (sh-set-shell "zsh") -*-
 #
-# @name gnupg
-# @brief Zsh plugin to set up environment variables for GnuPG.
-# @repository https://github.com/johnstonskj/zsh-gnupg-plugin
+# @name: gnupg
+# @brief: Set up environment variables for GnuPG.
+# @repository: https://github.com/johnstonskj/zsh-gnupg-plugin
+# @version: 0.1.1
+# @license: MIT AND Apache-2.0
+#
+# Public variables:
+#
+# * `GNUPGHOME`; path to the GnuPG home/data directory.
+# * `GPG_TTY`; the terminal device for GPG to use.
 #
 
 ############################################################################
